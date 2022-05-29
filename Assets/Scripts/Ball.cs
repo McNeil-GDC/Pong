@@ -35,8 +35,6 @@ public class Ball : MonoBehaviour
             
         }
 
-        //float x = Random.Range(0, 2) == 0 ? -1 : 1;
-        //float y = Random.Range(0, 2) == 0 ? -1 : 1;
         ballRigidBody.velocity = new Vector2(x * speed, y * speed);
     }
 
